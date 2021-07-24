@@ -13,7 +13,7 @@ import type {
   PaymentMethodCreateParams,
 } from '@stripe/stripe-react-native';
 import {colors} from './colors';
-import {API_URL} from './Config';
+import {API_URL, LOCAL_URL} from './Config';
 
 export default function Card() {
   const [name, setName] = useState('');
